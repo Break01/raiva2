@@ -2014,7 +2014,7 @@ ppimg = 'https://i0.wp.com/www.gambarunik.id/wp-content/uploads/2019/06/Top-Gamb
 case 'criador':
 case 'owner':
 italuft = fs.readFileSync('./teste/gojo.jpg')
-tiringa.sendMessage(from, italuft, image, {quoted: mek, caption: `☆━✪🕴  ∴₰Ⱦꪋℓo፝֯֟ ߷  🕴✪━☆\n\nChat do baiano: wa.me/+5574999510904`})
+tiringa.sendMessage(from, italuft, image, {quoted: mek, caption: `☆━✪🕴  ∴BieL፝֯֟ ߷  🕴✪━☆\n\nChat do baiano: wa.me/+5598984527526`})
 break
 
 //_EFEITO SLOW PARA AUDIO
