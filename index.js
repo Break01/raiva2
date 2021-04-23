@@ -67,21 +67,21 @@ const { slot } = require('./database/slot')
 
 //_INFORMAÇÕES DO BOT(settings)
 prefix = '='
-const botName = "Tiringa-BOT"
-const ownerNumber = "5574999510904"
-const ownerName = "Italu"
+const botName = "LeiakBot"
+const ownerNumber = "5598984527526"
+const ownerName = "Gabriel"
 
 //_LISTA DE CRS
-const cr = "Tiringa-BOT v12.0"
+const cr = "Leiak-Bot v12.0"
 const crfig = "Sticker criado com sucesso🔧"
 const crlv = "NOVO LEVEL🥳"
 
 //_VCARD DONO DO BOT
 const vcard = 'BEGIN:VCARD\n' 
             + 'VERSION:3.0\n' 
-            + 'FN:Italu🧙‍♂️\n' 
-            + 'ORG:Dono do Tiringa;\n' 
-            + 'TEL;type=CELL;type=VOICE;waid=557499510904:+55 74 9951-0904\n' 
+            + 'FN:Gabriel🧙‍♂️\n' 
+            + 'ORG:Dono do Gabriel;\n' 
+            + 'TEL;type=CELL;type=VOICE;waid=5598984527526:+55 98 8452-7526\n' 
             + 'END:VCARD'
 
 //_FUCTION REGISTRO/DINHEIRO
@@ -971,7 +971,7 @@ tiringa.on('group-participants-update', async (anu) => {
 
             const totalchat = await tiringa.chats.all()
 			const botNumber = tiringa.user.jid
-			const ownerNumber = [`557499510904@s.whatsapp.net`]
+			const ownerNumber = [`559884527526@s.whatsapp.net`]
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await tiringa.groupMetadata(from) : ''
@@ -1389,7 +1389,7 @@ text:
 
 🧙‍♂️ BOT 🧙‍♂️
 ❁➸ Prefix:「 ${prefix} 」
-❁➸ Nome: Tiringa-BOT
+❁➸ Nome: Leiak-Bot
 ❁➸ Versão 12.0
 ❁➸ Tempo online: ${temporizador(uptime)}
 ❁➸ Status: ON✅
@@ -1729,7 +1729,7 @@ costum(Menu, text, tescuk, cr)
 
 //_GIT DO BOT
 case 'git':
-tiringa.sendMessage(from, `https://github.com/italuH/Tiringa-BOT` , text, {quoted: mek})
+tiringa.sendMessage(from, `https://github.com/Break01/raiva2` , text, {quoted: mek})
 break
 
 case 'pão':
